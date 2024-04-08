@@ -1,5 +1,9 @@
 # ignore map, miou, datasets
-map_out/
+map_out/detection-results/
+map_out/ground-truth/
+map_out/images-optional/
+
+
 miou_out/
 VOCdevkit/
 datasets/
