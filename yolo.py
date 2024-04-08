@@ -26,8 +26,9 @@ class YOLO(object):
         #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
         #--------------------------------------------------------------------------#
         # "model_path"        : 'model_data/yolo_weights.pth',
-        "model_path"        : 'logs/best_epoch_weights.pth',
         # "classes_path"      : 'model_data/coco_classes.txt',
+
+        "model_path"        : 'logs/best_epoch_weights.pth',
         "classes_path"      : 'model_data/voc_classes.txt',
         #---------------------------------------------------------------------#
         #   anchors_path代表先验框对应的txt文件，一般不修改。
